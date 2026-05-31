@@ -87,4 +87,6 @@ MIT. See [`LICENSE`](LICENSE).
 
 ## Roadmap
 
-See [`plan.md`](./plan.md) for the implementation plan and current status.
+- Add richer demo scenarios for policy decisions and audit inspection.
+- Expand OpenAI-compatible provider examples without requiring credentials.
+- Keep plugin loading intentionally conservative until sandboxing is added.
