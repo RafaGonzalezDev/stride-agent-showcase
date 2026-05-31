@@ -1,0 +1,17 @@
+{
+  "provider": {
+    "type": "fake",
+    "description": "The default demo provider is deterministic and does not use network access."
+  },
+  "permission": {
+    "read": {
+      "*": "allow",
+      "*.env": "deny",
+      "*.env.*": "deny",
+      "*.env.example": "allow"
+    },
+    "write": "ask",
+    "edit": "ask",
+    "bash": "ask"
+  }
+}

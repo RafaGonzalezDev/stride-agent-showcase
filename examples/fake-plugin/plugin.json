@@ -1,0 +1,16 @@
+{
+  "name": "example.safe-tools",
+  "version": "0.1.0",
+  "description": "Example plugin manifest for the sanitized showcase.",
+  "entrypoint": "index.js",
+  "tools": [
+    {
+      "name": "echo",
+      "description": "Return a short safe message.",
+      "capability": "demo:echo",
+      "permissions": ["demo:echo"]
+    }
+  ],
+  "permissions": ["demo:echo"],
+  "agentCompatibility": ">=0.0.0 <1.0.0"
+}
